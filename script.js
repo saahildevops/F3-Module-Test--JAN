@@ -45,9 +45,13 @@ function searchAddress() {
     let searchAddress=$('#Address_input').val();
     $('#address_status').html('');
     if(searchAddress=='') {
-        $('#address_status').html('<div class="alertmessage">Please enter an address!</div>');
+        $('#address_status').html('<div class="alertmessage padding20">Please enter an address!</div>');
+        $('#Bottom_Heading').addClass('dnone');
+        $('#search_timezone').addClass('dnone');
         return false;
     }
+    $('#Bottom_Heading').removeClass('dnone');
+    $('#search_timezone').removeClass('dnone');
     fetch(`https://api.geoapify.com/v1/geocode/search?text=${encodeURIComponent(searchAddress)}&apiKey=${adminApiKey}`)
     .then(resp => resp.json())
     .then((geocodingResult) => {
