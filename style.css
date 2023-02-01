@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Top_portion{
+    background-color:white;
+    border: solid black 2px;
+}
+
+.Bottom_portion{
+    background-color: black;
+    border: solid black 2px;
+
+}
+
+
+
+.Top_box{
+    border: 1px solid black;
+    margin: 20px;
+    height: 80vh;
+    width: 90vw;
+}
+#top_inner_text{
+    margin: 10px;
+    padding: 10px;
+}
+#top_inner_text_lat{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Bottom_box{
+    border: 1px solid white;
+    margin: 20px;
+    height: 80vh;
+    width: 90vw;
+    color: white;
+}
+
+
+#Top_Heading{
+    margin: 20px;
+}
+#Bottom_Heading{
+    margin: 20px;
+    color: white;
+    
+}
+
+#Address_input{
+    margin: 20px;
+    padding: 5px;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    width: 90%;
+
+}
+#Submit_button{
+    margin-left: 20px;
+    padding: 5px;
+    width: 100px;
+}
+
+.alertmessage{
+    color:red;
+}

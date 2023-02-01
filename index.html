@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeZone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <section class="Top_portion">
+        <h1 id="Top_Heading">TimeZone API</h1>
+        <h1 id="Top_Heading">Your Current Time Zone</h1>
+        <div id="default_timezone" class="Top_box">
+
+        </div>
+        
+
+    </section>
+      
+
+
+    <section class="Bottom_portion">
+        <h1><label for="Address" style="color:white;margin:20px;">Enter Address</label></h1>
+        <input type="text" name="Address" id="Address_input"><br>
+        <button type="submit" id="Submit_button" onclick="searchAddress()">Submit</button>
+        <div id="address_status"></div>
+        <h1 id="Bottom_Heading">Your Result</h1>
+
+        <div id="search_timezone" class="Bottom_box">
+
+        </div>
+        
+        
+
+
+
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
