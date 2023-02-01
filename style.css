@@ -70,3 +70,10 @@
 .alertmessage{
     color:red;
 }
+
+.dnone{
+    display: none;
+}
+.padding20{
+    padding:20px;
+}
